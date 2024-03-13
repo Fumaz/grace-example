@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@grace-js/grace':
-    specifier: ^1.0.8
-    version: 1.0.8(glob@10.3.10)(zod@3.22.4)
+    specifier: ^1.0.11
+    version: 1.0.11(glob@10.3.10)(zod@3.22.4)
   zod:
     specifier: ^3.22.4
     version: 3.22.4
@@ -22,8 +22,8 @@ devDependencies:
 
 packages:
 
-  /@grace-js/grace@1.0.8(glob@10.3.10)(zod@3.22.4):
-    resolution: {integrity: sha512-jB4i/4hI0688WRRwJhW8LjjLMDbCJCT/PpBJthNhMQrQlv2+275wpm9Jt89VSxxghgKrZ/nPHpwLS1QqGPjfDw==}
+  /@grace-js/grace@1.0.11(glob@10.3.10)(zod@3.22.4):
+    resolution: {integrity: sha512-mmA4WXQDKgPH3BrbUlEab76e4GQpvqizV86LjzzkL7LKn0ftODRcXVoMA9MU8jIVcoQl5N4o9ibGqhqeyIltQg==}
     peerDependencies:
       glob: ^10.3.10
       zod: ^3.22.4

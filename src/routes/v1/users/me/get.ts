@@ -16,7 +16,7 @@ export default createRoute({
         return {
             code: 200,
             body: {
-                message: `Hello, ${query.name ?? 'world'}!`
+                message: `Hello, ${query.name}!`
             }
         };
     },

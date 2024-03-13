@@ -9,7 +9,7 @@ app.registerError(async (_, error) => {
 });
 
 // Assuming `app` is your Grace instance
-app.registerRoutes(join(import.meta.dirname, 'routes'));
+app.registerRoutes(join(import.meta.dirname, 'routes/**/*'));
 
 // Listen on port 3000
 app.listen(3000);
