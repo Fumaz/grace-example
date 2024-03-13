@@ -1,0 +1,22 @@
+{
+  "name": "grace-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@grace-js/grace": "^1.0.8",
+    "zod": "^3.22.4"
+  }
+}
